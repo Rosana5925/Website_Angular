@@ -1,0 +1,55 @@
+.container{
+    min-height: 70vh;
+    margin-top: 1em;
+}
+
+.navbar_main{
+    background: #9265ff;
+    display:flex;
+    justify-content: space-between;
+    padding: 1em;
+    border-bottom: 1px solid #4720a1;
+    
+}
+
+.navbar_link{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.4s;
+    
+}
+.navbar_nav{
+    display: flex;
+    justify-items: center;
+}
+
+a:hover{
+   color:white;
+   
+}
+
+.navbar_link_Logout{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.4s;
+    color:#cfb1ff
+}
+
+.nav_title{
+    text-decoration: none;
+}
+
+.navbar_item{
+    list-style: none;
+    margin-right: 1em;
+    color: #4720a1;
+}
+
+.footer_page{
+    color: #9265ff;
+    margin-left: 45%;
+}

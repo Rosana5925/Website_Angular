@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+    <div class="background_deposit">
+
+        <div class="form_transfer">
+        <!--Formulário para fazer uma transferência-->
+        <form action="">
+
+            <div class="titletransfer">
+
+                <h2> Cash Transfer </h2> 
+        
+            </div>
+
+            <div class="group_form_transfer">
+
+                <input class="inputtext" [(ngModel)]="balance.account_number"  type="number" placeholder="Account number to transfer." name="number">
+            
+            </div>
+
+            <div class="group_form_transfer">
+
+                <input class="inputtext" [(ngModel)]="balance.account_balance"  type="number" placeholder="Amount (€)" name="cash">
+            
+            </div>
+
+            <div >
+
+                <input class="btn_transfer" type="submit" value="Transfer" (click)="maketransfer()">
+            
+            </div>
+        </form>
+
+    </div>
+  
+
+    </div>
+
+
+
+    </body>
+</html>

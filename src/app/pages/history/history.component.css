@@ -1,0 +1,35 @@
+.background{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin: 50px;
+}
+
+.container_central{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    background:#9265ff;
+    border-radius: 10px;
+    position: relative;
+}
+
+.list{
+    margin-top: 1em;
+    min-height: 70vh;
+}
+
+.head_container{
+    background: #4720a1;
+    width: 600px;
+    height: 80%;
+    text-align: center;
+}
+
+.title{
+    justify-self: center;
+    align-items: center;
+    color: white;
+}

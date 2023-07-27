@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Rise your Deposit
+
+    </title>
+
+</head>
+
+
+<body>
+
+  <div class="background_deposit">
+     <!--Formulário para fazer um depósito-->
+    <div class="form_deposit">
+
+         <form action="">
+
+            <div class="head_form_deposit">
+                <h2 class="titledeposit">Please enter your account.</h2>
+            </div>
+
+            <div class="group_form_deposit">
+
+              <input class="inputtext" [(ngModel)]="balance.account_balance" type="number" placeholder="€" id="cash" name="cash">
+
+            </div>
+
+            <div class="group_form_deposit">
+
+             <input class="btn_deposit" type="submit" value="Make Deposit" (click)="makeDeposit()">
+
+            </div>  
+
+         </form>
+
+    </div> 
+    
+    </div>
+
+</body>
+   
+</html>
